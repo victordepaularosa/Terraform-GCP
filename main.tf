@@ -20,7 +20,7 @@ module "gcp_bucket" {
   source = "./GCP_bucket"
 
   # Variáveis do Modulo
-  bucket-name = "bucket-victor-0001"
+  bucket-name = "bucket-0001"
   location    = var.region
 }
 
@@ -31,7 +31,7 @@ module "gcp_vm" {
   source = "./GCP_VM"
 
   # Variáveis do Modulo
-  vm-name     = "vm-victor-teste"
+  vm-name     = "vm-teste"
   zone        = var.zone
   vpc-name    = module.gcp_network.vpc_name_out
   subnet-name = module.gcp_network.subnet_name_out
