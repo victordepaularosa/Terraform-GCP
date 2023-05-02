@@ -16,7 +16,6 @@ crash.*.log
 *.tfvars
 *.tfvars.json
 Password/
-variables.tf 
 
 
 # Ignore override files as they are usually used to override resources locally and so
