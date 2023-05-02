@@ -1,7 +1,7 @@
 
 # Criar o IP Público para a VM
 resource "google_compute_address" "ip_publico-gcp" {
-  name = "vpn-ip-publico-victor"
+  name = "ip-publico-${var.vm-name}"
 }
 
 # Criar VM
